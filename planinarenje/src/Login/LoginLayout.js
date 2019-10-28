@@ -24,7 +24,7 @@ const Login = (  ) => {
                     <input type="text" placeholder="Email"/>
                     <input type="password" placeholder="Password"/>
                     <input type="button" value="Login"/>
-                    <a href="">Forgot password?</a>
+                    <a href="#">Forgot password?</a>
                 </div>
                 <div class="register-show">
                     <h2>REGISTER</h2>
