@@ -7,6 +7,8 @@ import LandingPageText from '../components/LandingPageText'
 function LandingPage(){
     return(
         <div>
+            
+        
             <LandingPageMenu />
 
             <LandingPageText/>
