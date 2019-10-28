@@ -1,10 +1,10 @@
 import React from 'react'
-import LandingPageMenu from './components/LandingPageMenu'
+import LandingPageMenu from '../components/LandingPageMenu'
 
 function LandingPage(){
     return(
         <div>
-            <LandingPageMenu></LandingPageMenu>
+            <LandingPageMenu />
         </div>
     )
 }
