@@ -7,11 +7,10 @@ import LandingPageText from '../components/LandingPageText'
 function LandingPage(){
     return(
         <div>
-            
-        
             <LandingPageMenu />
-
+            <h3>Ej rabotam vo BRANCH!</h3>
             <LandingPageText/>
+           
         </div>
     )
 }
