@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Login from './Login/LoginLayout';
 
 function App() {
   return (
     <div className="App">
-      <p>Hello Frose!</p>
+        <Login />
     </div>
   );
 }
