@@ -10,7 +10,7 @@ function LandingPage(){
             
         
             <LandingPageMenu />
-
+            <h3>EJ RABOTAM VO BRANCH!</h3>
             <LandingPageText/>
         </div>
     )
