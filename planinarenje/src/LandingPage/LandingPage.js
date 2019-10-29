@@ -1,7 +1,7 @@
 import React from 'react';
 import LandingPageMenu from '../components/LandingPageMenu';
 import LandingPageText from '../components/LandingPageText';
-import Background from '../Winter-Night-Hike.jpg'
+import Background from '../Winter-Night-Hike.jpg';
 
 const slikaStyle = {
         backgroundImage:`url(${Background})` ,
@@ -12,7 +12,6 @@ const slikaStyle = {
 };
 
 function LandingPage(){
-
 
     return(
         <div style={slikaStyle}>   
