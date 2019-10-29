@@ -1,6 +1,7 @@
 import React from 'react';
-import LandingPageMenu from '../components/LandingPageMenu';
-import LandingPageText from '../components/LandingPageText';
+import LandingPageMenu from '../components/LandingPageMenu'
+import LandingPageText from '../components/LandingPageText'
+
 
 
 const LandingPage = () =>{
