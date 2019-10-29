@@ -1,5 +1,4 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react'0
 import LandingPageMenu from '../components/LandingPageMenu'
 import LandingPageText from '../components/LandingPageText'
 
