@@ -1,4 +1,6 @@
 import React from 'react';
+import Styles from '../index.css'
+
 
 export function TopMenu(){
     return(
