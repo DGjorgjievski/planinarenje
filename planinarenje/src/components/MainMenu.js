@@ -4,7 +4,7 @@ export function MainMenu(){
     return(
         <div className="row">
             <div className="col-12">
-            <nav className="navbar navbar-expand-sm bg-primary navbar-dark">
+            <nav className="navbar navbar-expand-sm bg-transparent navbar-light">
                 {/*Navbar Brand*/}
                 <a className="navbar-brand" href={"#"}>Logo</a>
 
@@ -15,7 +15,7 @@ export function MainMenu(){
 
                 {/*Navbar Links*/}
                 <div className="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav text-dark">
                         <li className="nav-item active">
                             <a className="nav-link" href={"#"}>ДОМА</a>
                         </li>
