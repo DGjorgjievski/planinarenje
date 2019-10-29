@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Login from './Login/LoginLayout';
-import LandingPage from './LandingPage/LandingPage'
+import SignUp from './Authentication/SignUp/SignUp';
+import Button from '@material-ui/core/Button';
+
 
 function App() {
   return (
     <div className="App">       
-        <LandingPage />
+        <SignUp  />
     </div>
   );
 }
