@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Login from './Login/LoginLayout';
 import LandingPage from './LandingPage/LandingPage'
+import MainPage from './MainPage/MainPage';
 
 function App() {
   return (
     <div className="App">       
-        <LandingPage />
+        <MainPage />
     </div>
   );
 }
