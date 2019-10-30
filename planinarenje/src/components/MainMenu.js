@@ -14,8 +14,8 @@ export function MainMenu(){
                 </button>
 
                 {/*Navbar Links*/}
-                <div className="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
-                    <ul className="navbar-nav text-dark">
+                <div className="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul className="navbar-nav text-dark ml-auto">
                         <li className="nav-item active">
                             <a className="nav-link" href={"#"}>ДОМА</a>
                         </li>
