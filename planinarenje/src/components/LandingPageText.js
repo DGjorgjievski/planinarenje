@@ -1,4 +1,10 @@
-import React from 'react';
+
+import React from 'react'
+
+function LandingPageText(){
+    return(
+        <div></div>
+    )
 
 const paragrafStyle={
 
@@ -36,8 +42,6 @@ function LandingPageText(){
             <button type="button" className="btn btn-primary" style={kopceStyle}>Влез</button>
         </div>
     )
-
-
 }
 
 export default LandingPageText

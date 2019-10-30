@@ -15,9 +15,7 @@ function LandingPage(){
 
     return(
         <div style={slikaStyle}>   
-    
             <LandingPageMenu />
-
             <LandingPageText/>
         </div>
     )
