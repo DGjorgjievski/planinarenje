@@ -8,15 +8,16 @@ function LandingPageText(){
 
 const paragrafStyle={
 
-    color:'white',
+    color:'snow',
     margin:'0 auto',
     width:'46%',
     paddingTop:"50px",
-    paddingBottom:"50px"
+    paddingBottom:"50px",
+    fontWeight:'bold'
 
 }
 const naslovStyle={
-    color:'white',
+    color:'snow',
     margin:'0 auto',
     width:'46%',
     paddingTop:"200px"
@@ -24,6 +25,7 @@ const naslovStyle={
 }
 const kopceStyle={
     margin:'0 auto',
+    color:'snow'
     
 }
 
@@ -37,7 +39,7 @@ function LandingPageText(){
         содржини,настани,информации и друштва поврзани со планинарењето низ Македонија.За да бидете во тек следете ја нашата 
         страна и креирајте свој профил.
             </p>
-            <button type="button" className="btn btn-outline-light" style={kopceStyle}>Влез</button>
+            <button type="button" className="btn btn-primary" style={kopceStyle}>Влез</button>
         </div>
     )
 }

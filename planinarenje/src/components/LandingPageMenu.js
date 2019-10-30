@@ -14,17 +14,17 @@ function LandingPageMenu() {
 
                 <div className="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul className="navbar-nav ml-auto" >
-                        <li className="nav-item active">
-                            <a className="nav-link" href={"#"}>Дома <span className="sr-only">(current)</span></a>
+                        <li className="nav-item active" style={{color:'black'}}>
+                            <a className="nav-link" href={"#"} style={{color:'snow'}}>Дома <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href={"#"}>Друштва <span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href={"#"} style={{color:'snow'}}>Друштва <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href={"#"}>Настани <span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href={"#"} style={{color:'snow'}}>Настани <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href={"#"}>За нас <span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href={"#"} style={{color:'snow'}}>За нас <span className="sr-only">(current)</span></a>
                         </li>
                     </ul>
   </div>

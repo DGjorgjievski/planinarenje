@@ -1,18 +1,18 @@
 import React from 'react'
 import CardsContainer from '../components/CardsContainer'
+import NastanCover from '../components/NastanCover'
+import NastanContent from '../components/NastanContent'
+import NastanInfo from '../components/NastanInfo'
 
-const h3Style=
-{
-    paddingTop:'50px',
-    paddingBottom:'50px'
-}
+
 
 function Nastani(){
     return(
         <div>
-
-            <h3 style={h3Style}>НАСТАНИ</h3>
-            <CardsContainer />
+            <NastanCover></NastanCover>
+            <NastanContent></NastanContent>
+            <NastanInfo></NastanInfo>
+            
         </div>
     )
 }
