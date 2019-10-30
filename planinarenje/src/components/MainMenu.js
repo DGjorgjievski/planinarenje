@@ -6,7 +6,10 @@ export function MainMenu(){
             <div className="col-12">
             <nav className="navbar navbar-expand-sm bg-transparent navbar-light">
                 {/*Navbar Brand*/}
-                <a className="navbar-brand" href={"#"}>Logo</a>
+                <a className="navbar-brand" href={"#"}>
+                    <img src={require("../SLIKI/logo25.png")} />
+                    
+                </a>
 
                 {/*Toggler/collapsibe Button */}
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -15,18 +18,18 @@ export function MainMenu(){
 
                 {/*Navbar Links*/}
                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul className="navbar-nav text-dark ml-auto">
-                        <li className="nav-item active">
-                            <a className="nav-link" href={"#"}>ДОМА</a>
+                    <ul className="navbar-nav text-light ml-auto">
+                        <li className="nav-item active mr-2" style={{fontWeight:'700'}}>
+                            <a className="nav-link text-white" href={"#"}>ДОМА</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href={"#"}>ДРУШТВА</a>
+                        <li className="nav-item mr-2">
+                            <a className="nav-link text-white" href={"#"}>ДРУШТВА</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href={"#"}>НАСТАНИ</a>
+                        <li className="nav-item mr-2">
+                            <a className="nav-link text-white" href={"#"}>НАСТАНИ</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href={"#"}>ЗА НАС</a>
+                        <li className="nav-item mr-2">
+                            <a className="nav-link text-white" href={"#"}>ЗА НАС</a>
                         </li>
                     </ul>
                 </div>

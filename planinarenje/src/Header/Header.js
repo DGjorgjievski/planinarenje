@@ -6,8 +6,8 @@ import {TopMenu, MainCarousel, MainMenu} from '../components';
 function Header(){
     return(
         <section className="header-section">
-            <TopMenu />
-            <MainMenu />
+            <MainMenu style={{position:'absolute', top:100}} />
+            
             <MainCarousel />
         </section>
     )
