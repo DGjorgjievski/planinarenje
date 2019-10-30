@@ -13,14 +13,23 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+import PlaninarskiKlubovi from "./PlaninarskiKlubovi/PlaninarskiKlubovi";
 
 function App() {
   return (
     <Router>
       <div className="App">
+<<<<<<< HEAD
+=======
+        <Route path="/MainPage" component={MainPage}></Route>
+>>>>>>> a498082093b5abbe108c6bc5a5dd6917adc22595
         <Route path="/LandingPage" component={LandingPage}></Route>
         <Route path="/SignIn" component={SignIn}></Route>
         <Route path="/SignUp" component={SignUp}></Route>
+        <Route
+          path="/PlaninarskiKlubovi"
+          component={PlaninarskiKlubovi}
+        ></Route>
       </div>
     </Router>
   );
