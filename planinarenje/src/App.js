@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+<<<<<<< HEAD
 import SignUp from "./Authentication/SignUp/SignUp";
 import SignIn from "./Authentication/SignIn/SignIn";
 import LandingPage from "./LandingPage/LandingPage";
@@ -13,10 +14,13 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+=======
+>>>>>>> master
 import PlaninarskiKlubovi from "./PlaninarskiKlubovi/PlaninarskiKlubovi";
 
 function App() {
   return (
+<<<<<<< HEAD
     <Router>
       <div className="App">
 <<<<<<< HEAD
@@ -32,6 +36,11 @@ function App() {
         ></Route>
       </div>
     </Router>
+=======
+    <div className="App">
+      <PlaninarskiKlubovi></PlaninarskiKlubovi>
+    </div>
+>>>>>>> master
   );
 }
 
