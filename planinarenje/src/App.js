@@ -18,7 +18,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <MainPage></MainPage>
         <Route path="/LandingPage" component={LandingPage}></Route>
         <Route path="/SignIn" component={SignIn}></Route>
         <Route path="/SignUp" component={SignUp}></Route>
