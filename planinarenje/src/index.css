@@ -15,6 +15,17 @@ code {
 .container-fluid{
   padding:0px;
 }
-
+.nav-link{
+  transition:0.3s;
+}
+.nav-link:active:hover{
+  border-bottom:none;
+}
+.active{
+  border-bottom:1px solid white;
+}
+.nav-link:hover{
+  border-bottom:1px solid white;
+}
 
 
