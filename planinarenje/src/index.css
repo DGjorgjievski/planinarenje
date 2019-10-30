@@ -16,7 +16,7 @@ code {
   padding:0px;
 }
 .nav-link{
-  transition:0.3s;
+  transition:0.6s;
 }
 .nav-link:active:hover{
   border-bottom:none;
