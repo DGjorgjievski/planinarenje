@@ -1,12 +1,12 @@
 import React from 'react';
 import LandingPageMenu from '../components/LandingPageMenu';
 import LandingPageText from '../components/LandingPageText';
-import Background from '../Winter-Night-Hike.jpg';
+import Background from '../SLIKI/plan2.jpg';
 
 const slikaStyle = {
         backgroundImage:`url(${Background})` ,
         width:'100%',
-        height:'800px',
+        height:'700px',
         backgroundSize:'cover'
   
 };

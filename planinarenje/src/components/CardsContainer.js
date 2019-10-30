@@ -13,11 +13,17 @@ const slikaStyle={
     height: "56%"
 
 }
+const h3Style=
+{
+    paddingTop:'50px',
+    paddingBottom:'50px'
+}
 
 
 function CardsContainer() {
     return (
         <div>
+            <h3 style={h3Style}>НАСТАНИ</h3>
             <div className="card-deck" style={cardStyle}>
                 <div className="card"> 
                             <img className="card-img-top" src={require('../SLIKI/s1.jpg')} style={slikaStyle}/>
