@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import MainPage from './MainPage/MainPage';
 import LandingPage from './LandingPage/LandingPage'
+import Nastani from './Nastani/Nastani'
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,7 +17,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <LandingPage />
+        <Nastani />
       </div>
     </Router>
   );
