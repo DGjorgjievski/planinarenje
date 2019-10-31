@@ -4,6 +4,7 @@ import MainPage from './MainPage/MainPage';
 import LandingPage from './LandingPage/LandingPage';
 import Nastani from './Nastani/Nastani';
 import PlaninarskiKlubovi from './PlaninarskiKlubovi/PlaninarskiKlubovi';
+import NastaniCards from './NastaniCards/NastaniCards';
 
 import {
   BrowserRouter as Router,
@@ -19,7 +20,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        
+        <NastaniCards />
       </div>
     </Router>
   );

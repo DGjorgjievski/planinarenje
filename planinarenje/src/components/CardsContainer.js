@@ -5,20 +5,18 @@ const cardStyle={
     padding:'50px'
 }
 const btnStyle={
-    
     float:'right'
 }
 const slikaStyle={
     width: "100%",
-    height: "56%"
-
+    maxHeight:250,
+    height:'100%',
 }
 const h3Style=
 {
     paddingTop:'50px',
     paddingBottom:'50px'
 }
-
 
 function CardsContainer() {
     return (

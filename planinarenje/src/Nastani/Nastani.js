@@ -1,5 +1,4 @@
 import React from 'react';
-import CardsContainer from '../components/CardsContainer';
 import NastanCover from '../components/NastanCover';
 import NastanContent from '../components/NastanContent';
 import NastanInfo from '../components/NastanInfo';
