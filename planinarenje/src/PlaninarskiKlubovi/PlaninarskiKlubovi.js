@@ -1,6 +1,6 @@
 import React from "react";
-import ClubView from "./ClubView/ClubView";
-import ClubList from "./ClubList/ClubList";
+import ClubView from "../components/ClubView";
+import ClubList from "../components/ClubList";
 
 const PlaninarskiKlubovi = () => {
   return (

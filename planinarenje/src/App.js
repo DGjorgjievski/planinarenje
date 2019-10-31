@@ -1,8 +1,10 @@
 import React from "react";
 import "./App.css";
 import MainPage from './MainPage/MainPage';
-import LandingPage from './LandingPage/LandingPage'
-import Nastani from './Nastani/Nastani'
+import LandingPage from './LandingPage/LandingPage';
+import Nastani from './Nastani/Nastani';
+import PlaninarskiKlubovi from './PlaninarskiKlubovi/PlaninarskiKlubovi';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,7 +19,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nastani />
+        
       </div>
     </Router>
   );
