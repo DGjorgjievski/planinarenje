@@ -4,7 +4,8 @@ import {
   Route,
   Link,
   useRouteMatch,
-  useParams
+  useParams,
+  Redirect
 } from "react-router-dom";
 import React from "react";
 import LandingPageMenu from "../components/LandingPageMenu";
@@ -16,6 +17,8 @@ import MainPage from "../MainPage/MainPage";
 import Authentication from "../Authentication/Authentication";
 import PlaninarskiKlubovi from "../PlaninarskiKlubovi/PlaninarskiKlubovi";
 import NastaniCards from "../NastaniCards/NastaniCards";
+import Footer from "../components/Footer";
+import Nastani from "../Nastani/Nastani";
 
 const slikaStyle = {
   backgroundImage: `url(${Background})`,
@@ -33,21 +36,23 @@ function LandingPage() {
           <LandingPageText></LandingPageText>
         </div>
       </Route>
-      <Route path="/main" component={MainPage}>
+      <Route path="/main" component={MainPage} exact>
         <MainPage></MainPage>
       </Route>
-      <Route path="/logIn" component={Authentication}>
+      <Route path="/login" component={Authentication}>
         <Authentication></Authentication>
       </Route>
-      <div>
-        <MainMenu></MainMenu>
-        <Route path="/pKlubovi" component={PlaninarskiKlubovi}>
-          <PlaninarskiKlubovi></PlaninarskiKlubovi>
-        </Route>
-        <Route path="/nastani" component={NastaniCards}>
-          <NastaniCards></NastaniCards>
-        </Route>
-      </div>
+      <Route path="/pKlubovi" component={PlaninarskiKlubovi}>
+        <PlaninarskiKlubovi></PlaninarskiKlubovi>
+      </Route>
+      <Route path="/nastani" component={NastaniCards}>
+        <NastaniCards></NastaniCards>
+      </Route>
+      <Route path="/infoNastan" component={Nastani}>
+        <Header></Header>
+        <Nastani></Nastani>
+        <Footer></Footer>
+      </Route>
     </Router>
   );
 }

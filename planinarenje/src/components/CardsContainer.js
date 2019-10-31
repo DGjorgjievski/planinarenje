@@ -84,7 +84,96 @@ function CardsContainer() {
                 </div>
             </div>
         </div>
-        )
-    }
-                
-export default CardsContainer
+        <div className="card">
+          <img
+            src={require("../SLIKI/s3.jpg")}
+            className="card-img-top"
+            style={slikaStyle}
+          />
+          <div className="card-body">
+            <h5 className="card-title">Врв 3/12: Бајрак на Караџица </h5>
+            <p className="card-text">
+              На почетокот на декември, одиме да го искачиме врвот Бајрак на
+              северниот дел на планинскиот масив Мокра на пределот помеѓу
+              неговите планински огранки Караџица и Китка, во срцето на областа
+              Торбешија , јужно до градот Скопје!
+            </p>
+            <Link to="infoNastan">
+              <button className="btn btn-info" style={btnStyle}>
+                Повеќе
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="card-deck" style={cardStyle}>
+        <div className="card">
+          <img
+            src={require("../SLIKI/s4.jpg")}
+            className="card-img-top"
+            style={slikaStyle}
+          />
+          <div className="card-body">
+            <h5 className="card-title">Mеденица- Карбула- Галичник</h5>
+            <p className="card-text">
+              Три града Тетово, Кавадарци и Скопје сплотени во дружба и
+              запознавање во центарот на Македонија. ПК "I love hiking group
+              Macedonia" и ПК Тетекс ве носат на преубавата Бистра (Маврово) со
+              врвовите Меденица 2163мнв и Карбула 2148мнв со крај во селото
+              Галичник.
+            </p>
+            <Link to="infoNastan">
+              <button className="btn btn-info" style={btnStyle}>
+                Повеќе
+              </button>
+            </Link>
+          </div>
+        </div>
+        <div className="card">
+          <img
+            src={require("../SLIKI/s5.jpg")}
+            className="card-img-top"
+            style={slikaStyle}
+          />
+          <div className="card-body">
+            <h5 className="card-title">Раса 1369м</h5>
+            <p className="card-text">
+              Уште некоја акција за промоција на планинарството. Раса е од оние
+              тури кои нудат повеќе опции - секој да се искачи до каде што сака
+              и секоја екипа да си го помине времето онака како што сака, сѐ со
+              цел турата да биде убава и лесна.
+            </p>
+            <Link to="infoNastan">
+              <button className="btn btn-info" style={btnStyle}>
+                Повеќе
+              </button>
+            </Link>
+          </div>
+        </div>
+        <div className="card">
+          <img
+            src={require("../SLIKI/s6.jpg")}
+            className="card-img-top"
+            style={slikaStyle}
+          />
+          <div className="card-body">
+            <h5 className="card-title">Рибничка Скала 2391м</h5>
+            <p className="card-text">
+              За прв пат јавно организирана акција за масивот Кораб со
+              искачување на врвот Рибничка Скала. Одењето на овој терен е
+              сведено на минимум од клубовите во Македонија. Поради тежината на
+              искачувањето.
+            </p>
+            <Link to="infoNastan">
+              <button className="btn btn-info" style={btnStyle}>
+                Повеќе
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default CardsContainer;

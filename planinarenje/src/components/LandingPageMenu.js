@@ -20,7 +20,7 @@ function LandingPageMenu() {
         <div className="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul className="navbar-nav ml-auto" style={{ fontWeight: "bold" }}>
             <li className="nav-item mr-2">
-              <Link to="/logIn">
+              <Link to="/login">
                 <a className="nav-link text-white">НАЈАВА</a>
               </Link>
             </li>
