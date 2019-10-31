@@ -20,10 +20,16 @@ import React from "react";
       textAlign:'center',
     };
     const kopceStyle = {
-      margin: "0 auto",
-      display:'block',
-      color: "snow",
-      textAlign:'center',
+        height: '50px',
+        width: '100px',
+        background: '#b51b1b',
+        margin:' 20px',
+        float:'center',
+        boxShadow: '0 0 1px #ccc',
+        webkitTransition: 'all 0.5s ease-in-out',
+        border: '0px',
+        color: '#fff'
+
     };
     return (
       <div>
@@ -36,9 +42,11 @@ import React from "react";
           поврзани со планинарењето низ Македонија.За да бидете во тек следете
           ја нашата страна и креирајте свој профил.
         </p>
-        <button type="button" className="btn btn-lg btn-primary" style={kopceStyle}>
-          Влез
-        </button>
+        <div className="oneButton" style={{position:'absolute',right:'46%'}}>
+        <button className="btn-change landing-btn" style={kopceStyle}>Влез</button>
+        </div>
+        
+    
       </div>
     );
   }

@@ -29,7 +29,7 @@ const SignIn = props => {
               </div>
               <div className="log-in-with-social"></div>
               <button type="submit" className="btn btn-success form-control">
-                Најави Се!
+                Најави се!
               </button>
               <div className="row mt-5">
                 <div className="col-md-6 ">

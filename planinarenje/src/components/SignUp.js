@@ -8,7 +8,7 @@ const SignUp = () => {
     <div className="bgLogin">
       <div className="container m-auto">
         <div className="row justify-content-center sign-up-form">
-          <div className="col-md-6 sign-up-formLayout p-5" style={{color:'black',backgroundColor:'white',boxShadow: '5px 1px 15px 2px rgba(138, 165, 182, 0.75)'
+          <div className="col-md-6 sign-up-formLayout p-5 kopce1" style={{color:'black',backgroundColor:'white',boxShadow: '5px 1px 15px 2px rgba(138, 165, 182, 0.75)'
 }}>
             <div className="form-group sign-up-style">
               <label htmlFor="exampleInputEmail1">Име</label>

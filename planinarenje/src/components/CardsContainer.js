@@ -5,7 +5,8 @@ const cardStyle={
     padding:'50px'
 }
 const btnStyle={
-    float:'right'
+    float:'right',
+    marginTop:'20px'
 }
 const slikaStyle={
     width: "100%",
@@ -15,7 +16,8 @@ const slikaStyle={
 const h3Style=
 {
     textAlign:'center',
-    marginTop:"13%"
+    marginTop:"13%",
+    fontWeight:
 }
 
 function CardsContainer() {
@@ -77,7 +79,7 @@ function CardsContainer() {
                     <img src={require('../SLIKI/s6.jpg')} className="card-img-top" style={slikaStyle}/>
                     <div className="card-body">
                         <h5 className="card-title">Рибничка Скала 2391м</h5>
-                        <p className="card-text">За прв пат јавно организирана акција за масивот Кораб со             искачување на врвот Рибничка Скала. Одењето на овој терен е сведено на минимум од         клубовите во Македонија. Поради тежината на искачувањето.</p>
+                        <p className="card-text">За прв пат јавно организирана акција за масивот Кораб сo искачување на врвот Рибничка Скала. Одењето на овој терен е сведено на минимум од         клубовите во Македонија. Поради тежината на искачувањето.</p>
                         <button className="btn btn-info" style={btnStyle}>Повеќе</button>
                     </div>
                 </div>
