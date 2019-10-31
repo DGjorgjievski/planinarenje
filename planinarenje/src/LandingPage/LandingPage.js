@@ -6,9 +6,8 @@ import Background from '../SLIKI/plan2.jpg';
 const slikaStyle = {
         backgroundImage:`url(${Background})` ,
         width:'100%',
-        height:'700px',
-        backgroundSize:'cover'
-  
+        height:'100vh',
+        backgroundSize:'cover', 
 };
 
 function LandingPage(){

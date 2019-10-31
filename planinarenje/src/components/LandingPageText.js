@@ -1,28 +1,25 @@
 import React from "react";
 
-function LandingPageText() {
-  return <div></div>;
-
-  const paragrafStyle = {
-    color: "snow",
-    margin: "0 auto",
-    width: "46%",
-    paddingTop: "50px",
-    paddingBottom: "50px",
-    fontWeight: "bold"
-  };
-  const naslovStyle = {
-    color: "snow",
-    margin: "0 auto",
-    width: "46%",
-    paddingTop: "200px"
-  };
-  const kopceStyle = {
-    margin: "0 auto",
-    color: "snow"
-  };
-
   function LandingPageText() {
+    const paragrafStyle = {
+      color: "snow",
+      margin: "0 auto",
+      width: "46%",
+      paddingTop: "50px",
+      paddingBottom: "50px",
+    };
+    const naslovStyle = {
+      color: "snow",
+      margin: "0 auto",
+      width: '100%',
+      paddingTop: "200px",
+      fontWeight: "700",
+      textShadow: '2px 2px 2px #d3d3d3'
+    };
+    const kopceStyle = {
+      margin: "0 auto",
+      color: "snow"
+    };
     return (
       <div>
         <h1 className="naslov" style={naslovStyle}>
@@ -40,6 +37,4 @@ function LandingPageText() {
       </div>
     );
   }
-
-}
 export default LandingPageText;

@@ -19,26 +19,23 @@ function LandingPageMenu() {
 
 
                 <div className="collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul className="navbar-nav ml-auto" >
-                        <li className="nav-item active" style={{color:'black'}}>
-                            <a className="nav-link" href={"#"} style={{color:'snow'}}>Дома <span className="sr-only">(current)</span></a>
+                    <ul className="navbar-nav ml-auto" style={{fontWeight:'bold'}}>
+                        <li className="nav-item active mr-2" style={{color:'black'}}>
+                            <a className="nav-link" href={"#"} style={{color:'snow'}}>ДОМА <span className="sr-only">(current)</span></a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href={"#"} style={{color:'snow'}}>Друштва <span className="sr-only">(current)</span></a>
+                        <li className="nav-item mr-2">
+                            <a className="nav-link" href={"#"} style={{color:'snow'}}>ДРУШТВА <span className="sr-only">(current)</span></a>
                         </li>
-                        <li className="nav-item ">
-                            <a className="nav-link" href={"#"} style={{color:'snow'}}>Настани <span className="sr-only">(current)</span></a>
+                        <li className="nav-item mr-2">
+                            <a className="nav-link" href={"#"} style={{color:'snow'}}>НАСТАНИ <span className="sr-only">(current)</span></a>
                         </li>
-                        <li className="nav-item ">
-                            <a className="nav-link" href={"#"} style={{color:'snow'}}>За нас <span className="sr-only">(current)</span></a>
+                        <li className="nav-item mr-2">
+                            <a className="nav-link" href={"#"} style={{color:'snow'}}>ЗА НАС <span className="sr-only">(current)</span></a>
                         </li>
                     </ul>
-  </div>
-</nav>
-
+            </div>
+          </nav>
         </div>
-      </nav>
-    </div>
   );
 }
 

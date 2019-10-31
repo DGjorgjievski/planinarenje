@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-
+import MainPage from './MainPage/MainPage';
+import LandingPage from './LandingPage/LandingPage'
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,7 +16,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-    
+        <LandingPage />
       </div>
     </Router>
   );
