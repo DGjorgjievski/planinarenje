@@ -1,29 +1,27 @@
-.bgLogin{
-    background: url("../../Winter-Night-Hike.jpg");
-    background-size: cover;
-    overflow: auto;
-    height: 100vh;
-    width: 100%;
-    max-width: 100%;
-    
+.bgLogin {
+  background: url("../SLIKI/plan2.jpg");
+  background-size: cover;
+  overflow: auto;
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
 }
-.log-in-form{
-    color: #fff;
-    margin-top: 12% ;
+.log-in-form {
+  color: #fff;
+  margin-top: 12%;
 }
-.form-style{
-    
-    border: 1px solid rgba(27, 26, 60, 0.8) ;
-    border-radius: 5px 5px;
-    box-shadow:5px 1px 15px 2px rgba(82, 86, 123, 0.75) ;    
+.form-style {
+  border: 1px solid rgba(27, 26, 60, 0.8);
+  border-radius: 5px 5px;
+  box-shadow: 5px 1px 15px 2px rgba(82, 86, 123, 0.75);
 }
-div.login-input-style > input{
-    background-color: transparent;
-    color: #ebebeb;
+div.login-input-style > input {
+  background-color: transparent;
+  color: #ebebeb;
 }
-div.login-input-style >label{
-    float: left;
+div.login-input-style > label {
+  float: left;
 }
-.gender-input-section{
-    margin-top: 2%;
+.gender-input-section {
+  margin-top: 2%;
 }
