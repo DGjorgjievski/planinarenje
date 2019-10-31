@@ -4,7 +4,9 @@ import React from "react";
     const paragrafStyle = {
       color: "snow",
       margin: "0 auto",
-      width: "46%",
+      textAlign: 'center',
+      maxWidth: 800,
+      width: '100%',
       paddingTop: "50px",
       paddingBottom: "50px",
     };
@@ -12,13 +14,16 @@ import React from "react";
       color: "snow",
       margin: "0 auto",
       width: '100%',
-      paddingTop: "200px",
+      marginTop: '18%',
       fontWeight: "700",
-      textShadow: '2px 2px 2px #d3d3d3'
+      textShadow: '2px 2px 2px #d3d3d3',
+      textAlign:'center',
     };
     const kopceStyle = {
       margin: "0 auto",
-      color: "snow"
+      display:'block',
+      color: "snow",
+      textAlign:'center',
     };
     return (
       <div>
@@ -31,7 +36,7 @@ import React from "react";
           поврзани со планинарењето низ Македонија.За да бидете во тек следете
           ја нашата страна и креирајте свој профил.
         </p>
-        <button type="button" className="btn btn-primary" style={kopceStyle}>
+        <button type="button" className="btn btn-lg btn-primary" style={kopceStyle}>
           Влез
         </button>
       </div>
