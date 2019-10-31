@@ -1,5 +1,5 @@
 import React from "react";
-import "./SignUp.css";
+import "../../Styles/SignUp.css";
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 
