@@ -28,7 +28,7 @@ export function MainMenu() {
 
           {/*Navbar Links*/}
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul className="navbar-nav text-light ml-auto bg-dark navbar-dark">
+            <ul className="navbar-nav text-light ml-auto ">
               <li
                 className="nav-item active mr-2"
                 style={{ fontWeight: "700" }}
@@ -48,9 +48,9 @@ export function MainMenu() {
                 </Link>
               </li>
               <li className="nav-item mr-2">
-                <Link to="/logIn">
+                <NavLink to="/login">
                   <a className="nav-link text-white">НАЈАВА</a>
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
