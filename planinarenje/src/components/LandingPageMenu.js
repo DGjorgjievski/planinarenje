@@ -1,16 +1,22 @@
-import React from 'react';
-
-
-
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 function LandingPageMenu() {
-    return (
-        <div>
-            <nav className="navbar navbar-expand-md navbar-dark bg-transparent fixed-top">
-               
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+  return (
+    <div>
+      <nav className="navbar navbar-expand-md navbar-dark bg-transparent fixed-top">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarsExampleDefault"
+          aria-controls="navbarsExampleDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
 
                 <div className="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul className="navbar-nav ml-auto" >
@@ -29,8 +35,11 @@ function LandingPageMenu() {
                     </ul>
   </div>
 </nav>
+
         </div>
-            )
-        }
-        
-export default LandingPageMenu
+      </nav>
+    </div>
+  );
+}
+
+export default LandingPageMenu;
