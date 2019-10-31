@@ -6,7 +6,6 @@ import CardsContainer from '../components/CardsContainer';
 function MainPage(){
     return(
         <div>
-            <Header />
             <MainCarousel />
             <CardsContainer />
         </div>
