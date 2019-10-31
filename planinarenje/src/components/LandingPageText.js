@@ -40,5 +40,6 @@ function LandingPageText() {
       </div>
     );
   }
+
 }
 export default LandingPageText;
