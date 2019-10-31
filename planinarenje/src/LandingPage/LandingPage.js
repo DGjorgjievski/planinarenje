@@ -1,23 +1,22 @@
-import React from 'react';
-import LandingPageMenu from '../components/LandingPageMenu';
-import LandingPageText from '../components/LandingPageText';
-import Background from '../SLIKI/plan2.jpg';
+import React from "react";
+import LandingPageMenu from "../components/LandingPageMenu";
+import LandingPageText from "../components/LandingPageText";
+import Background from "../SLIKI/plan2.jpg";
 
 const slikaStyle = {
-        backgroundImage:`url(${Background})` ,
-        width:'100%',
-        height:'100vh',
-        backgroundSize:'cover', 
+  backgroundImage: `url(${Background})`,
+  width: "100%",
+  height: "100vh",
+  backgroundSize: "cover"
 };
 
-function LandingPage(){
-
-    return(
-        <div style={slikaStyle}>   
-            <LandingPageMenu />
-            <LandingPageText/>
-        </div>
-    )
+function LandingPage() {
+  return (
+    <div style={slikaStyle}>
+      <LandingPageMenu />
+      <LandingPageText />
+    </div>
+  );
 }
 
-export default LandingPage
+export default LandingPage;

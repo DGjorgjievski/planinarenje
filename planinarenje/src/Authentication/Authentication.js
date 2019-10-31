@@ -16,10 +16,8 @@ function Authentication() {
   return (
     <div>
       <Router>
-        <Switch>
-          <Route path="/logIn" component={SignIn}></Route>
-          <Route path="/signUp" component={SignUp}></Route>
-        </Switch>
+        <Route path="/logIn" component={SignIn}></Route>
+        <Route path="/signUp" component={SignUp}></Route>
       </Router>
     </div>
   );

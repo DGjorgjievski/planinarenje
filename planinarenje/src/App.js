@@ -16,10 +16,12 @@ import {
   useParams
 } from "react-router-dom";
 
-import FullPage from "./FullPageLayout";
-
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <LandingPage></LandingPage>
+    </div>
+  );
 }
 
 export default App;
