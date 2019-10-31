@@ -32,6 +32,9 @@ function LandingPageMenu() {
                         <li className="nav-item mr-2">
                             <a className="nav-link" href={"#"} style={{color:'snow'}}>ЗА НАС <span className="sr-only">(current)</span></a>
                         </li>
+                        <li className="nav-item mr-2">
+                            <a className="nav-link text-white" href={"#"}>НАЈАВА</a>
+                        </li>
                     </ul>
             </div>
           </nav>

@@ -29,7 +29,7 @@ export function MainCarousel (){
       <div className="p-0 m-0">
         <section id="hero1-2" className="hero bg-video video-play">
           <div style={{position: 'absolute', zIndex: '-1', inset: '0px', overflow: 'hidden', backgroundSize: 'cover',backgroundRepeat: 'no-repeat', backgroundPosition: '50% 50%', backgroundImage: 'none'}}>
-            <video autoPlay muted loop style={{margin: 'auto', position: 'absolute', zIndex: '-1', top:   '50%', left: '50%', transform: 'translate(-50%, -50%)', visibility: 'visible', width: '100%',height: 'auto'}}>
+            <video autoPlay allow={"autoplay"} muted loop style={{margin: 'auto', position: 'absolute', zIndex: '-1', top:   '50%', left: '50%', transform: 'translate(-50%, -50%)', visibility: 'visible', width: '100%',height: 'auto'}}>
                 <source src={require("../SLIKI/hero-video.mp4")} type="video/mp4" />
                 <source src={require("../SLIKI/hero-video.mp4")} type="video/webm" />
                 <source src={require("../SLIKI/hero-video.mp4")} type="video/ogg" />

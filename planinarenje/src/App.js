@@ -20,12 +20,10 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
+
       <div className="App">
-        <Nastani></Nastani>
-        <Footer></Footer>
+
       </div>
-    </Router>
   );
 }
 
