@@ -6,6 +6,7 @@ import Nastani from "./Nastani/Nastani";
 import PlaninarskiKlubovi from "./PlaninarskiKlubovi/PlaninarskiKlubovi";
 import NastaniCards from "./NastaniCards/NastaniCards";
 import Authentication from "./Authentication/Authentication";
+import Dashboard from './Dashboard/Dashboard';
 
 import {
   BrowserRouter as Router,
@@ -21,7 +22,7 @@ import FullPage from "./FullPageLayout";
 function App() {
   return (
       <div>
-        <MainPage />
+        <Dashboard />
       </div>
     )
 }
