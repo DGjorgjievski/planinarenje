@@ -16,7 +16,7 @@ const slikaStyle={
 const h3Style=
 {
     textAlign:'center',
-    marginTop:"13%"
+    marginTop:"20%",
 }
 
 function CardsContainer() {

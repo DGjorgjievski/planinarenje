@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
   function LandingPageText() {
     const paragrafStyle = {
@@ -50,4 +51,5 @@ import React from "react";
       </div>
     );
   }
+
 export default LandingPageText;
