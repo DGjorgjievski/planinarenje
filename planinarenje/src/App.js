@@ -25,7 +25,7 @@ function App() {
         <LandingPage></LandingPage>
       </Router>
     </div>
-  );
+   )
 }
 
 export default App;

@@ -28,11 +28,11 @@ const SignIn = props => {
                 />
               </div>
               <div className="log-in-with-social"></div>
-              <Link to="/main">
-                <button type="submit" className="btn btn-success form-control">
-                  Најави Се!
-                </button>
-              </Link>
+
+              <button type="submit" className="btn btn-success form-control">
+                Најави се!
+              </button>
+
               <div className="row mt-5">
                 <div className="col-md-6 ">
                   <p>Доколку немате корисничка сметка:</p>
