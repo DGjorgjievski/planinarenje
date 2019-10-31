@@ -1,7 +1,11 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 export function MainMenu() {
+  let location = useLocation();
+
+  useEffect(() => {}, location);
+
   return (
     <div className="row">
       <div className="col-12">
@@ -24,7 +28,7 @@ export function MainMenu() {
 
           {/*Navbar Links*/}
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul className="navbar-nav text-light ml-auto">
+            <ul className="navbar-nav text-light ml-auto ">
               <li
                 className="nav-item active mr-2"
                 style={{ fontWeight: "700" }}
@@ -44,9 +48,9 @@ export function MainMenu() {
                 </Link>
               </li>
               <li className="nav-item mr-2">
-                <Link to="/logIn">
+                <NavLink to="/login">
                   <a className="nav-link text-white">НАЈАВА</a>
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
