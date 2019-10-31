@@ -19,7 +19,12 @@ import {
 import FullPage from "./FullPageLayout";
 
 function App() {
-  return <div></div>;
+  return (
+      <div>
+        <Authentication/>
+      </div>
+    )
+  
 }
 
 export default App;
