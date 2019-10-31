@@ -72,7 +72,7 @@ const SignUp = () => {
                 </Label>
               </FormGroup>
             </div>
-            <Link to="../SignIn/SignIn.js">
+            <Link to="logIn">
               <button className="btn btn-info form-control mt-5">
                 Регистрација
               </button>

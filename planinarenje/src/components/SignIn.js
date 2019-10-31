@@ -6,7 +6,7 @@ const SignIn = props => {
     <div className="bgLogin ">
       <div className="container m-auto">
         <div className="row justify-content-center log-in-form">
-          <div className="col-md-5 form-style p-3">
+          <div className="col-md-4 form-style p-3">
             <form>
               <div className="form-group login-input-style ">
                 <label for="exampleInputEmail1">Емаил адреса</label>
@@ -28,7 +28,7 @@ const SignIn = props => {
                 />
               </div>
               <div className="log-in-with-social"></div>
-              <button type="submit" className="btn btn-primary form-control">
+              <button type="submit" className="btn btn-success form-control">
                 Најави Се!
               </button>
               <div className="row mt-5">
@@ -36,7 +36,7 @@ const SignIn = props => {
                   <p>Доколку немате корисничка сметка:</p>
                 </div>
                 <div className="col-md-6 mt-1">
-                  <Link to="../SignUp/SignUp.js">
+                  <Link to="signUp">
                     <button
                       type="button"
                       className="btn btn-info form-control signIn"
