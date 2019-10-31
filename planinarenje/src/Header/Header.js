@@ -4,7 +4,7 @@ import { TopMenu, MainCarousel, MainMenu } from "../components";
 function Header() {
   return (
     <section className="header-section">
-      <MainCarousel />
+      <MainMenu />
     </section>
   );
 }

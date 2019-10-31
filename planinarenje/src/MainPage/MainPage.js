@@ -1,10 +1,13 @@
 import React from "react";
-import Header from "../Header/Header";
+
+import {MainCarousel} from '../components/MainCarousel';
+import CardsContainer from '../components/CardsContainer';
 
 function MainPage() {
   return (
     <div>
-      <Header />
+        <MainCarousel />
+        <CardsContainer />
     </div>
   );
 }
