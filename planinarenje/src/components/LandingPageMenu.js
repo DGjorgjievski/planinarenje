@@ -17,13 +17,13 @@ function LandingPageMenu() {
                         <li className="nav-item active" style={{color:'black'}}>
                             <a className="nav-link" href={"#"} style={{color:'snow'}}>Дома <span className="sr-only">(current)</span></a>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             <a className="nav-link" href={"#"} style={{color:'snow'}}>Друштва <span className="sr-only">(current)</span></a>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item ">
                             <a className="nav-link" href={"#"} style={{color:'snow'}}>Настани <span className="sr-only">(current)</span></a>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item ">
                             <a className="nav-link" href={"#"} style={{color:'snow'}}>За нас <span className="sr-only">(current)</span></a>
                         </li>
                     </ul>
