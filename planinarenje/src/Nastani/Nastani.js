@@ -10,10 +10,8 @@ function Nastani(){
             <NastanCover></NastanCover>
             <NastanContent></NastanContent>
             <NastanInfo></NastanInfo>
-            
         </div>
     )
 }
-
 
 export default Nastani
