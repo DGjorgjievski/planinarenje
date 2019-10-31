@@ -15,12 +15,15 @@ import {
   useParams
 } from "react-router-dom";
 import Authentication from "./Authentication/Authentication";
+import NastanInfo from "./components/NastanInfo";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Authentication></Authentication>
+        <Nastani></Nastani>
+        <Footer></Footer>
       </div>
     </Router>
   );
