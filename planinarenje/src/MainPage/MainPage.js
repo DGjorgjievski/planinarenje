@@ -39,8 +39,8 @@ function MainPage() {
             <Nastani></Nastani>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
-      <Footer></Footer>
     </div>
   );
 }

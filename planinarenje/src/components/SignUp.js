@@ -8,8 +8,14 @@ const SignUp = () => {
     <div className="bgLogin">
       <div className="container m-auto">
         <div className="row justify-content-center sign-up-form">
-          <div className="col-md-6 sign-up-formLayout p-5 kopce1" style={{color:'black',backgroundColor:'white',boxShadow: '5px 1px 15px 2px rgba(138, 165, 182, 0.75)'
-}}>
+          <div
+            className="col-md-5 sign-up-formLayout p-5 kopce1"
+            style={{
+              color: "black",
+              backgroundColor: "white",
+              boxShadow: "5px 1px 15px 2px rgba(138, 165, 182, 0.75)"
+            }}
+          >
             <div className="form-group sign-up-style">
               <label htmlFor="exampleInputEmail1">Име</label>
               <input
@@ -41,13 +47,22 @@ const SignUp = () => {
               />
             </div>
             <div className="form-group sign-up-style">
-            <label htmlFor="exampleInputEmail1">Лозинка</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Лозинка"/>
-              
+              <label htmlFor="exampleInputEmail1">Лозинка</label>
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Лозинка"
+              />
             </div>
             <div className="form-group sign-up-style">
-            <label htmlFor="exampleInputEmail1">Потврди лозинка</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Потврди лозинка"/>
+              <label htmlFor="exampleInputEmail1">Потврди лозинка</label>
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Потврди лозинка"
+              />
             </div>
             <div className="row  p-0 pl-3 pr-3 ">
               <p>Изберете пол:</p>
