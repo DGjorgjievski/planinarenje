@@ -1,9 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-
-const PlaninarskiKlubovi = () => {
-  return <p>Worsk Klubovi</p>;
-=======
 import ClubView from "./ClubView/ClubView";
 import ClubList from "./ClubList/ClubList";
 
@@ -22,7 +17,6 @@ const PlaninarskiKlubovi = () => {
       </div>
     </div>
   );
->>>>>>> master
 };
 
 export default PlaninarskiKlubovi;

@@ -13,13 +13,14 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+
 import PlaninarskiKlubovi from "./PlaninarskiKlubovi/PlaninarskiKlubovi";
 
 function App() {
   return (
-    <div className="App">
-      <PlaninarskiKlubovi></PlaninarskiKlubovi>
-    </div>
+    <Router>
+      <div className="App"></div>
+    </Router>
   );
 }
 
