@@ -11,6 +11,7 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+import MainPage from "../MainPage/MainPage";
 
 function Authentication() {
   return (
@@ -18,6 +19,7 @@ function Authentication() {
       <Router>
         <Route path="/logIn" component={SignIn}></Route>
         <Route path="/signUp" component={SignUp}></Route>
+        <Route path="/main" component={MainPage}></Route>
       </Router>
     </div>
   );

@@ -6,6 +6,7 @@ import Nastani from "./Nastani/Nastani";
 import PlaninarskiKlubovi from "./PlaninarskiKlubovi/PlaninarskiKlubovi";
 import NastaniCards from "./NastaniCards/NastaniCards";
 import Authentication from "./Authentication/Authentication";
+import Master from "./Master";
 
 import {
   BrowserRouter as Router,
@@ -15,11 +16,14 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+import LandingPageMenu from "./components/LandingPageMenu";
 
 function App() {
   return (
     <div>
-      <LandingPage></LandingPage>
+      <Router>
+        <LandingPage></LandingPage>
+      </Router>
     </div>
   );
 }
