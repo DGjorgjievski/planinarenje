@@ -17,7 +17,9 @@ const slikaStyle = {
 };
 const h3Style = {
   textAlign: "center",
-  padding: 5
+  padding: 5,
+  fontWeight:'700',
+  marginBottom:'3%',
 };
 
 function CardsContainer() {

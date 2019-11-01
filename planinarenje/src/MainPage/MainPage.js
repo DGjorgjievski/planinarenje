@@ -18,8 +18,10 @@ import NastaniCards from "../NastaniCards/NastaniCards";
 import { MainMenu } from "../components";
 import Footer from "../components/Footer";
 import Nastani from "../Nastani/Nastani";
+import { makeStyles } from '@material-ui/core/styles';
 
 function MainPage() {
+
   return (
     <div>
       <Router>
@@ -27,6 +29,7 @@ function MainPage() {
         <Switch>
           <Route path="/main" component={MainPage} exact>
             <MainCarousel />
+            <div style={{marginTop:'13%'}}></div>
             <CardsContainer />
           </Route>
           <Route path="/pKlubovi" component={PlaninarskiKlubovi}>
