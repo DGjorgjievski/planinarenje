@@ -3,7 +3,7 @@ import CardsContainer from "../components/CardsContainer";
 
 function NastaniCards() {
   return (
-    <div style={{ backgroundColor: "#ebebeb" }}>
+    <div>
       <CardsContainer />
     </div>
   );
