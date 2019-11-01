@@ -21,6 +21,7 @@ import LandingPageMenu from "./components/LandingPageMenu";
 
 function App() {
   return (
+
     <div>
       <Router>
         <LandingPage />
