@@ -24,7 +24,7 @@ const h3Style = {
 
 function CardsContainer() {
   return (
-    <div className="pb-5" style={{ backgroundColor: "#ebebeb" }}>
+    <div className="pb-5">
       <h3 style={h3Style}>НАСТАНИ</h3>
       <div className="container">
         {/*PRV RED CARDS*/}

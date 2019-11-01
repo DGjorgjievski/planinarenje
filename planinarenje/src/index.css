@@ -37,3 +37,10 @@ code {
 .MuiBox-root-63{
   width:100%;
 }
+.makeStyles-card-64{
+  border:1px solid #d3d3d3;
+  box-shadow:3px 3px 3px #d3d3d3
+}
+.MuiTypography-body1{
+  width:100%;
+}
