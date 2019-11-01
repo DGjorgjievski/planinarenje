@@ -1,12 +1,12 @@
-import React from 'react';
-import CardsContainer from '../components/CardsContainer';
+import React from "react";
+import CardsContainer from "../components/CardsContainer";
 
-function NastaniCards (){
-    return(
-        <div>
-            <CardsContainer />
-        </div>
-    )
+function NastaniCards() {
+  return (
+    <div style={{ backgroundColor: "#ebebeb" }}>
+      <CardsContainer />
+    </div>
+  );
 }
 
-export default NastaniCards
+export default NastaniCards;

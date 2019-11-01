@@ -75,8 +75,7 @@ export function MainCarousel() {
                 ПОЧУСТВУВАЈТЕ ЈА АВАНТУРАТА
               </h1>
               <p className="lead text-white m-b-md ">
-                We have been collaborating with brands and agencies to build
-                meaningful digital interactions since 2007
+                Станете дел од најголемата заедница за планинарење во Република Македонија.
               </p>
             </div>
           </div>

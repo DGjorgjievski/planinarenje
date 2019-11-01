@@ -11,14 +11,16 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+import MainPage from "../MainPage/MainPage";
 
-function Authentication() {
+function Authentication(props) {
   return (
     <div>
       <Router>
         <Switch>
-          <Route path="/logIn" component={SignIn}></Route>
-          <Route path="/signUp" component={SignUp}></Route>
+          <Route path="/login" component={SignIn} exact></Route>
+          <Route path="/signUp" component={SignUp} exact></Route>
+          <Route path="/main" component={MainPage}></Route>
         </Switch>
       </Router>
     </div>
