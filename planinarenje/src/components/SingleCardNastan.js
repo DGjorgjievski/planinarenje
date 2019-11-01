@@ -11,6 +11,7 @@ const SingleCardNastan = () => {
     maxHeight: 250,
     height: "100%"
   };
+
   return (
     <div className="card">
       <img
@@ -25,7 +26,7 @@ const SingleCardNastan = () => {
           важи за малку суров врв поради тоа што претставува еден вид
           "пристаниште" на Шара каде се прекршуваат сите ветришта.{" "}
         </p>
-        <Link to="infoNastan">
+        <Link to="infoNastan/1">
           <button className="btn btn-info" style={btnStyle}>
             Повеќе
           </button>

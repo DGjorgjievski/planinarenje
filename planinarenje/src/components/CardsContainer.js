@@ -30,7 +30,7 @@ function CardsContainer() {
         {/*PRV RED CARDS*/}
         <div className="row">
           <div className="col-sm-12 col-md-4 col-lg-4">
-            <SingleCardNastan></SingleCardNastan>
+            <SingleCardNastan id="1"></SingleCardNastan>
           </div>
           <div className="col-sm-12 col-md-4 col-lg-4">
             <SingleCardNastan></SingleCardNastan>
@@ -42,20 +42,6 @@ function CardsContainer() {
 
         {/**VTOR RED CARDS */}
         <div className="row mt-4">
-          <div className="col-sm-12 col-md-4 col-lg-4">
-            <SingleCardNastan></SingleCardNastan>
-          </div>
-          <div className="col-sm-12 col-md-4 col-lg-4">
-            <SingleCardNastan></SingleCardNastan>
-          </div>
-          <div className="col-sm-12 col-md-4 col-lg-4">
-            <SingleCardNastan></SingleCardNastan>
-          </div>
-        </div>
-
-        {/*TRET RED CARDS*/}
-
-        <div className="row mt-4 mb-5">
           <div className="col-sm-12 col-md-4 col-lg-4">
             <SingleCardNastan></SingleCardNastan>
           </div>
