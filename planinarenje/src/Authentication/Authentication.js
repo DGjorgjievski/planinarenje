@@ -13,7 +13,7 @@ import {
 } from "react-router-dom";
 import MainPage from "../MainPage/MainPage";
 
-function Authentication() {
+function Authentication(props) {
   return (
     <div>
       <Router>

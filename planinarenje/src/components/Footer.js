@@ -5,19 +5,25 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 
-
-
-
-
-
-
-
-
-
-function Footer()
-{
-    return (
-
+function Footer() {
+  return (
+    <div>
+      <footer
+        className="page-footer font-small  pt-4 bg-dark"
+        style={{ color: "white" }}
+      >
+        <div className="container text-center text-md-left">
+          <div className="row text-center text-md-left mt-3 pb-3">
+            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 className="text-uppercase mb-4 font-weight-bold">
+                Кратко за нас
+              </h6>
+              <p>
+                Ние сме тројца студенти кои имаа замисла и цел да направат
+                страна за сите љубители на планинарењето,да бидат информирани за
+                сите настани,друштва и новости на забавен начин.
+              </p>
+            </div>
         <div>
             <footer className="page-footer font-small  pt-4 bg-dark" style={{color:'white'}}>
             <div className="container">
@@ -81,11 +87,12 @@ function Footer()
                   </div>
                 </div>
               </div>
+            </div>
           </div>
-    </footer> 
-  </div>
-    )
-
+        </div>
+      </footer>
+    </div>
+  );
 }
 
 export default Footer;
