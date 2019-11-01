@@ -18,8 +18,8 @@ const slikaStyle = {
 const h3Style = {
   textAlign: "center",
   padding: 5,
-  fontWeight:'700',
-  marginBottom:'3%',
+  fontWeight: "700",
+  marginBottom: "3%"
 };
 
 function CardsContainer() {
@@ -30,26 +30,26 @@ function CardsContainer() {
         {/*PRV RED CARDS*/}
         <div className="row">
           <div className="col-sm-12 col-md-4 col-lg-4">
-            <SingleCardNastan id="1"></SingleCardNastan>
+            <SingleCardNastan Cardid="1"></SingleCardNastan>
           </div>
           <div className="col-sm-12 col-md-4 col-lg-4">
-            <SingleCardNastan></SingleCardNastan>
+            <SingleCardNastan Cardid="2"></SingleCardNastan>
           </div>
           <div className="col-sm-12 col-md-4 col-lg-4">
-            <SingleCardNastan></SingleCardNastan>
+            <SingleCardNastan Cardid="3"></SingleCardNastan>
           </div>
         </div>
 
         {/**VTOR RED CARDS */}
         <div className="row mt-4">
           <div className="col-sm-12 col-md-4 col-lg-4">
-            <SingleCardNastan></SingleCardNastan>
+            <SingleCardNastan Cardid="4"></SingleCardNastan>
           </div>
           <div className="col-sm-12 col-md-4 col-lg-4">
-            <SingleCardNastan></SingleCardNastan>
+            <SingleCardNastan Cardid="5"></SingleCardNastan>
           </div>
           <div className="col-sm-12 col-md-4 col-lg-4">
-            <SingleCardNastan></SingleCardNastan>
+            <SingleCardNastan Cardid="6"></SingleCardNastan>
           </div>
         </div>
       </div>

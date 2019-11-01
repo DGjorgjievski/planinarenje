@@ -1,55 +1,64 @@
-import React from 'react';
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { makeStyles } from '@material-ui/core/styles';
-import clsx from 'clsx';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import Collapse from '@material-ui/core/Collapse';
-import Avatar from '@material-ui/core/Avatar';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import { red } from '@material-ui/core/colors';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
-import Button from '@material-ui/core/Button';
-import { shadows } from '@material-ui/system';
-import Logo from '../SLIKI/logo25.png';
-import AssignmentIcon from '@material-ui/icons/Assignment';
-
+import { makeStyles } from "@material-ui/core/styles";
+import clsx from "clsx";
+import Card from "@material-ui/core/Card";
+import CardHeader from "@material-ui/core/CardHeader";
+import CardMedia from "@material-ui/core/CardMedia";
+import CardContent from "@material-ui/core/CardContent";
+import CardActions from "@material-ui/core/CardActions";
+import Collapse from "@material-ui/core/Collapse";
+import Avatar from "@material-ui/core/Avatar";
+import IconButton from "@material-ui/core/IconButton";
+import Typography from "@material-ui/core/Typography";
+import { red } from "@material-ui/core/colors";
+import FavoriteIcon from "@material-ui/icons/Favorite";
+import ShareIcon from "@material-ui/icons/Share";
+import MoreVertIcon from "@material-ui/icons/MoreVert";
+import Button from "@material-ui/core/Button";
+import { shadows } from "@material-ui/system";
+import Logo from "../SLIKI/logo25.png";
+import AssignmentIcon from "@material-ui/icons/Assignment";
+import { data } from "../Tekst/Nastani";
 const useStyles = makeStyles(theme => ({
   card: {
-    maxWidth: 345,
+    maxWidth: 345
   },
   media: {
     height: 0,
-    paddingTop: '56.25%', // 16:9
+    paddingTop: "56.25%" // 16:9
   },
   expand: {
-    transform: 'rotate(0deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
-      duration: theme.transitions.duration.shortest,
-    }),
+    transform: "rotate(0deg)",
+    marginLeft: "auto",
+    transition: theme.transitions.create("transform", {
+      duration: theme.transitions.duration.shortest
+    })
   },
   expandOpen: {
-    transform: 'rotate(180deg)',
+    transform: "rotate(180deg)"
   },
   avatar: {
-    margin:10,
+    margin: 10
   },
   button: {
-    margin: theme.spacing(1),
+    margin: theme.spacing(1)
   },
   input: {
-    display: 'none',
-  },
+    display: "none"
+  }
 }));
 
-export default function RecipeReviewCard() {
+export default function RecipeReviewCard(props) {
+  const jsondata = require("../Tekst/Nastani.js");
+
+  const content = jsondata.data.content[parseInt(props.Cardid) - 1];
+  const cTitle = content.title;
+  const cDate = content.datum;
+  const txt = content.text;
+  const cText = txt.substring(0, 200);
+  const imgUrl = content.imgUrl;
+  debugger;
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -70,19 +79,17 @@ export default function RecipeReviewCard() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Љуботен 2499"
-        subheader="1.11.2019"
+        title={cTitle}
+        subheader={cDate}
       />
       <CardMedia
         className={classes.media}
-        image={require("../SLIKI/plan5.jpg")}
+        image={require("../SLIKI/s8.jpg")}
         title="Слика5"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          Атрактивноста на турата е во врвот, кој има форма на пирамида. Љуботен
-          важи за малку суров врв поради тоа што претставува еден вид
-          "пристаниште" на Шара каде се прекршуваат сите ветришта.
+          {cText}...
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -94,16 +101,21 @@ export default function RecipeReviewCard() {
         </IconButton>
         <IconButton
           className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded,
+            [classes.expandOpen]: expanded
           })}
           onClick={handleExpandClick}
           aria-expanded={expanded}
           aria-label="show more"
         >
-        <Link to="infoNastan">
-          <Button variant="contained" className={classes.button} color="secondary" >ПОВЕЌЕ</Button>
-        </Link>
-        
+          <Link to="infoNastan">
+            <Button
+              variant="contained"
+              className={classes.button}
+              color="secondary"
+            >
+              ПОВЕЌЕ
+            </Button>
+          </Link>
         </IconButton>
       </CardActions>
     </Card>
