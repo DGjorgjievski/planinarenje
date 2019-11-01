@@ -28,7 +28,7 @@ const SignIn = props => {
                 />
               </div>
               <div className="log-in-with-social"></div>
-              <Link to="/main">
+              <Link to="/admin">
                 <button type="submit" className="btn btn-success form-control">
                   Најави се!
                 </button>

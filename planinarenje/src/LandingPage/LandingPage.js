@@ -19,6 +19,7 @@ import PlaninarskiKlubovi from "../PlaninarskiKlubovi/PlaninarskiKlubovi";
 import NastaniCards from "../NastaniCards/NastaniCards";
 import Footer from "../components/Footer";
 import Nastani from "../Nastani/Nastani";
+import Admin from '../Admin/Admin';
 
 const slikaStyle = {
   backgroundImage: `url(${Background})`,
@@ -48,7 +49,9 @@ function LandingPage() {
       <Route path="/nastani" component={NastaniCards}>
         <NastaniCards></NastaniCards>
       </Route>
-
+      <Route path='/admin' component={Admin}>
+        <Admin />
+      </Route>
       <Route path="/infoNastan/:id" component={Nastani}>
         <Header></Header>
         <Nastani></Nastani>
