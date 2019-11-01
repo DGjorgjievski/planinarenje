@@ -2,6 +2,7 @@ import React from "react";
 import SignUp from "../components/SignUp";
 import SignIn from "../components/SignIn";
 import "../Styles/Authentication.css";
+import Admin from "../Admin/Admin";
 
 import {
   BrowserRouter as Router,
@@ -20,7 +21,7 @@ function Authentication(props) {
         <Switch>
           <Route path="/login" component={SignIn} exact></Route>
           <Route path="/signUp" component={SignUp} exact></Route>
-          <Route path="/main" component={MainPage}></Route>
+          <Route path="/admin" component={Admin}></Route>
         </Switch>
       </Router>
     </div>
