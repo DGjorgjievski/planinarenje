@@ -4,7 +4,7 @@ import ClubList from "../components/ClubList";
 
 const PlaninarskiKlubovi = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "#ebebeb" }}>
       <div className="container">
         <div className="row">
           <div className="col-md-4">
