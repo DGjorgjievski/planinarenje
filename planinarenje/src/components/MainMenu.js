@@ -1,15 +1,30 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 
-export function MainMenu() {
+export function MainMenu(props) {
   let location = useLocation();
+  const [clas, setClas] = useState({ clas: " " });
 
-  useEffect(() => {}, location);
+  useEffect(() => {
+    if (location.pathname === "/main") {
+      setClas({
+        clas: "bg-transparent navbar-light"
+      });
+    }
+    if (location.pathname === "/nastani" || location.pathname === "/pKlubovi") {
+      setClas({
+        clas: "bg-dark navbar-dark"
+      });
+    }
+  }, [location]);
+
+  // console.log(location.pathname);
+  // console.log(clas.clas);
 
   return (
     <div className="row">
       <div className="col-12">
-        <nav className="navbar navbar-expand-sm bg-transparent navbar-light">
+        <nav className={"navbar navbar-expand-sm " + clas.clas}>
           {/*Navbar Brand*/}
           <Link to="/main">
             <a className="navbar-brand">

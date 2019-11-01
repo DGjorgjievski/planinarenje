@@ -48,6 +48,7 @@ function LandingPage() {
       <Route path="/nastani" component={NastaniCards}>
         <NastaniCards></NastaniCards>
       </Route>
+
       <Route path="/infoNastan" component={Nastani}>
         <Header></Header>
         <Nastani></Nastani>
