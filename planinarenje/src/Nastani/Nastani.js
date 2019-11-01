@@ -7,7 +7,6 @@ function Nastani() {
   return (
     <div style={{ backgroundColor: "#ebebeb" }}>
       <NastanCover></NastanCover>
-
       <NastanContent></NastanContent>
       <NastanInfo></NastanInfo>
     </div>
