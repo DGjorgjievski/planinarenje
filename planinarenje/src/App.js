@@ -7,6 +7,7 @@ import PlaninarskiKlubovi from "./PlaninarskiKlubovi/PlaninarskiKlubovi";
 import NastaniCards from "./NastaniCards/NastaniCards";
 import Authentication from "./Authentication/Authentication";
 import Master from "./Master";
+import Admin from './Admin/Admin'
 
 import {
   BrowserRouter as Router,
@@ -22,7 +23,7 @@ function App() {
   return (
     <div>
       <Router>
-        <LandingPage></LandingPage>
+        <LandingPage />
       </Router>
     </div>
    )
