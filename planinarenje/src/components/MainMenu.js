@@ -11,15 +11,19 @@ export function MainMenu(props) {
         clas: "bg-transparent navbar-light"
       });
     }
-    if (location.pathname === "/nastani" || location.pathname === "/pKlubovi") {
+    if (
+      location.pathname === "/nastani" ||
+      location.pathname === "/pKlubovi" ||
+      location.pathname === "/infoNastan"
+    ) {
       setClas({
         clas: "bg-dark navbar-dark"
       });
     }
   }, [location]);
 
-  // console.log(location.pathname);
-  // console.log(clas.clas);
+  console.log(location.pathname);
+  console.log(clas.clas);
 
   return (
     <div className="row">

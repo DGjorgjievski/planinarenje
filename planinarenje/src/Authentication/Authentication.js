@@ -17,8 +17,8 @@ function Authentication(props) {
   return (
     <div>
       <Router>
-        <Route path="/logIn" component={SignIn} exact></Route>
         <Switch>
+          <Route path="/login" component={SignIn} exact></Route>
           <Route path="/signUp" component={SignUp} exact></Route>
           <Route path="/main" component={MainPage}></Route>
         </Switch>
