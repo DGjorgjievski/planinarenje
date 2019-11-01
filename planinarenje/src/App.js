@@ -6,7 +6,7 @@ import Admin from './Admin/Admin'
 function App() {
   return (
       <div>
-        <Admin />
+        
       </div>
     )
 }

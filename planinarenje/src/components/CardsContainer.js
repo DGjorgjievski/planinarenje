@@ -19,7 +19,7 @@ const h3Style={
 function CardsContainer() {
     return (
         <div>
-            <h3 style={h3Style}>НАСТАНИ</h3>
+            <h3 style={h3Style}>ИДНИ НАСТАНИ</h3>
             <div className="card-deck" style={cardStyle}>
                 <div className="card"> 
                     <img className="card-img-top" src={require('../SLIKI/s1.jpg')} style={slikaStyle}/>

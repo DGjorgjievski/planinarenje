@@ -17,15 +17,15 @@ import Link from '@material-ui/core/Link';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import { mainListItems} from './listItems.js';
+import { mainListItems} from './DashboardList.js';
 import CardsContainer from './CardsContainer';
 
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+      {'Сите права се задржани © '}
+      <Link color="inherit" href="{#}">
+        ПЛАНИНАРЕЊЕ
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -170,6 +170,9 @@ export default function Dashboard() {
       <main className={classes.content}>
         <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
+
+          {/*CONTENT SECTION*/}
+          
           <CardsContainer style={useStyles.nastanStyles}/>
         </Container>
         <Copyright />
