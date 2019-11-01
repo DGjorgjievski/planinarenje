@@ -12,10 +12,8 @@ const slikaStyle={
     maxHeight:250,
     height:'100%',
 }
-const h3Style=
-{
+const h3Style={
     textAlign:'center',
-    marginTop:"20%",
 }
 
 function CardsContainer() {
