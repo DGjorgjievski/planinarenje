@@ -21,7 +21,7 @@ import FullPage from "./FullPageLayout";
 function App() {
   return (
       <div>
-        <NastaniCards></NastaniCards>
+        <Nastani></Nastani>
       </div>
     )
   
