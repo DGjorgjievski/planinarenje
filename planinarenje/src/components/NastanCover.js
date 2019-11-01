@@ -21,7 +21,7 @@ function NastanCover()
             <div style={{backgroundColor:'rgba(227, 228, 226, 1)'}}>
             <div className="container" style={{padding:'0'}}>
             <div className="cover" style={coverStyle}>
-                <h1 className="slika" style={{paddingTop:'200px',marginBottom:'0',margin:'0 auto',height:'500px',color:'snow'}}>ЉУБОТЕН 2499</h1>
+                <h1 className="slika" style={{paddingTop:'200px',marginBottom:'0',margin:'0 auto',height:'500px',color:'snow', textAlign: 'center'}}>ЉУБОТЕН 2499</h1>
             </div>
             </div>
             </div>

@@ -17,28 +17,17 @@ function LandingPageMenu() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-
-                <div className="collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul className="navbar-nav ml-auto" style={{fontWeight:'bold'}}>
-                        <li className="nav-item active mr-2" style={{color:'black'}}>
-                            <a className="nav-link" href={"#"} style={{color:'snow'}}>ДОМА <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item mr-2">
-                            <a className="nav-link" href={"#"} style={{color:'snow'}}>ДРУШТВА <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item mr-2">
-                            <a className="nav-link" href={"#"} style={{color:'snow'}}>НАСТАНИ <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item mr-2">
-                            <a className="nav-link" href={"#"} style={{color:'snow'}}>ЗА НАС <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item mr-2">
-                            <a className="nav-link text-white" href={"#"}>НАЈАВА</a>
-                        </li>
-                    </ul>
-            </div>
-          </nav>
+        <div className="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul className="navbar-nav ml-auto" style={{ fontWeight: "bold" }}>
+            <li className="nav-item mr-2">
+              <Link to="/login">
+                <a className="nav-link text-white">НАЈАВА</a>
+              </Link>
+            </li>
+          </ul>
         </div>
+      </nav>
+    </div>
   );
 }
 
