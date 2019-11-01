@@ -55,7 +55,7 @@ function CardsContainer() {
 
         {/*TRET RED CARDS*/}
 
-        <div className="row mt-4">
+        <div className="row mt-4 mb-5">
           <div className="col-sm-12 col-md-4 col-lg-4">
             <SingleCardNastan></SingleCardNastan>
           </div>
